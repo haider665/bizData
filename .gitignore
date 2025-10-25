@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+package-lock.json
+npm-debug.log*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+pnpm-debug.log*
+bun.lockb
+
+# Build outputs
+dist/
+build/
+coverage/
+*.log
+
+# Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+.next/
+.svelte-kit/
+vite.config.ts.timestamp-*
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Editors/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Tooling
+.vercel/
+.netlify/
