@@ -75,8 +75,8 @@ function PrivacyContent() {
       <h3 className="text-lg font-semibold text-gray-900 mb-3">Contact Us</h3>
       <p className="text-gray-600">
         If you have any questions about this Privacy Policy, please contact us at{" "}
-        <a href="mailto:privacy@bizdata.com" className="text-primary-600 hover:text-primary-700">
-          privacy@bizdata.com
+        <a href="mailto:privacy@bizdata.app" className="text-primary-600 hover:text-primary-700">
+          privacy@bizdata.app
         </a>
       </p>
     </div>
@@ -129,8 +129,8 @@ function TermsContent() {
       <h3 className="text-lg font-semibold text-gray-900 mb-3">Contact Information</h3>
       <p className="text-gray-600">
         If you have any questions about these Terms of Service, please contact us at{" "}
-        <a href="mailto:legal@bizdata.com" className="text-primary-600 hover:text-primary-700">
-          legal@bizdata.com
+        <a href="mailto:legal@bizdata.app" className="text-primary-600 hover:text-primary-700">
+          legal@bizdata.app
         </a>
       </p>
     </div>

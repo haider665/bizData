@@ -8,7 +8,7 @@ const caps = [
   {
     title: "Smart Heatmaps",
     body:
-      "Semantic heatmaps show intent, hesitations, and rage-clicks — not just click density.",
+      "Semantic heatmaps show intent, hesitations, and rage-clicks, not just click density.",
     icon: "🔥"
   },
   {

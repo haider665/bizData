@@ -1,4 +1,4 @@
-const logos = ["Shopify", "WordPress", "Google Tag Manager", "React", "Next.js", "Webflow"];
+const logos = ["Shopify", "WordPress", "Google Tag Manager", "React", "Next.js"];
 
 export default function Integrations() {
   return (

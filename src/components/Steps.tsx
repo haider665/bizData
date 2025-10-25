@@ -8,7 +8,7 @@ const steps = [
   {
     step: 2,
     title: "Collect Interactions",
-    desc: "Events and journeys are captured automatically — no manual tracking."
+    desc: "Events and journeys are captured automatically, no manual tracking."
   },
   {
     step: 3,
@@ -22,7 +22,7 @@ export default function Steps() {
   return (
     <section className="section mt-16">
       <h2 className="text-center text-xl font-semibold sm:text-2xl">
-        From clicks to clarity — in 3 steps.
+        From clicks to clarity in 3 steps.
       </h2>
 
       <ol className="mx-auto mt-6 grid max-w-3xl gap-6 sm:grid-cols-3">

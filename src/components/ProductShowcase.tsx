@@ -2,7 +2,7 @@ export default function   ProductShowcase() {
   return (
     <section className="section mt-16">
       <h2 className="text-center text-xl font-semibold sm:text-2xl">
-        Meet BizData — your digital experience co‑pilot.
+        Meet BizData, your digital experience co‑pilot.
       </h2>
       <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-gray-600">
         Analyze behavior patterns, surface critical issues, and suggest

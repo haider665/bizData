@@ -11,7 +11,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
           <span className="text-primary-700">Analytics.</span>
         </h1>
         <p className="mt-4 text-sm text-gray-600 sm:text-base">
-          Understand what your users do — and why — with AI‑powered
+          Understand what your users do and why with AI‑powered
           experience analytics.
         </p>
         <div className="mt-6 flex items-center justify-center gap-3">

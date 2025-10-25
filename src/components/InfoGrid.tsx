@@ -23,7 +23,7 @@ export default function InfoGrid() {
   return (
     <section className="section mt-16">
       <h2 className="text-center text-xl font-semibold sm:text-2xl">
-        You know what’s happening on your site — but not why.
+        You know what’s happening on your site but not why.
       </h2>
       <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-gray-600">
         Businesses make decisions in the dark. Traditional tools give pieces of

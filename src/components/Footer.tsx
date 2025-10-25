@@ -34,7 +34,7 @@ export default function Footer() {
                 </div>
                 <p className="text-sm text-gray-600">
                   AI-powered experience analytics that turn user behavior into actionable insights. 
-                  We help businesses understand what their users do — and why — through intelligent 
+                  We help businesses understand what their users do, and why through intelligent 
                   data analysis and automated recommendations.
                 </p>
               </div>

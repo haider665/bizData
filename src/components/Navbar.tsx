@@ -16,9 +16,9 @@ export default function Navbar({ onOpenModal }: NavbarProps) {
           <a href="#features" className="hover:text-gray-900">
             Features
           </a>
-          <a href="#pricing" className="hover:text-gray-900">
+          {/* <a href="#pricing" className="hover:text-gray-900">
             Pricing
-          </a>
+          </a> */}
           <a href="#about" className="hover:text-gray-900">
             About
           </a>
