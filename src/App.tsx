@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import InfoGrid from "./components/InfoGrid";
@@ -9,14 +10,31 @@ import Integrations from "./components/Integrations";
 import Developers from "./components/Developers";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import WaitlistModal from "./components/WaitlistModal";
 
 export default function App() {
+  const [modalState, setModalState] = useState<{
+    isOpen: boolean;
+    type: "waitlist" | "early-access";
+  }>({
+    isOpen: false,
+    type: "waitlist"
+  });
+
+  const openModal = (type: "waitlist" | "early-access") => {
+    setModalState({ isOpen: true, type });
+  };
+
+  const closeModal = () => {
+    setModalState(prev => ({ ...prev, isOpen: false }));
+  };
+
   return (
     <>
       <GradientBG />
-      <Navbar />
+      <Navbar onOpenModal={openModal} />
       <main className="space-y-16 md:space-y-24 lg:space-y-32">
-        <Hero />
+        <Hero onOpenModal={openModal} />
         <InfoGrid />
         <ProductShowcase />
         <CapabilitiesGrid />
@@ -24,9 +42,15 @@ export default function App() {
         {/* <Pricing /> */}
         <Integrations />
         <Developers />
-        <CTA />
+        <CTA onOpenModal={openModal} />
       </main>
       <Footer />
+      
+      <WaitlistModal
+        isOpen={modalState.isOpen}
+        onClose={closeModal}
+        formType={modalState.type}
+      />
     </>
   );
 }

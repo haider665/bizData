@@ -1,4 +1,8 @@
-export default function Navbar() {
+interface NavbarProps {
+  onOpenModal: (type: "waitlist" | "early-access") => void;
+}
+
+export default function Navbar({ onOpenModal }: NavbarProps) {
   return (
     <header className="sticky top-0 z-20 w-full bg-white/70 backdrop-blur">
       <div className="section flex items-center justify-between py-3">
@@ -22,9 +26,12 @@ export default function Navbar() {
             Blog
           </a>
         </nav>
-        <a className="btn btn-primary h-8 px-3 text-xs" href="#cta">
+        <button 
+          onClick={() => onOpenModal("early-access")}
+          className="btn btn-primary h-8 px-3 text-xs"
+        >
           Get Early Access
-        </a>
+        </button>
       </div>
     </header>
   );

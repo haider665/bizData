@@ -1,4 +1,8 @@
-export default function Hero() {
+interface HeroProps {
+  onOpenModal: (type: "waitlist" | "early-access") => void;
+}
+
+export default function Hero({ onOpenModal }: HeroProps) {
   return (
     <section className="section text-center">
       <div className="mx-auto max-w-3xl pt-16 sm:pt-24">
@@ -11,12 +15,18 @@ export default function Hero() {
           experience analytics.
         </p>
         <div className="mt-6 flex items-center justify-center gap-3">
-          <a href="#cta" className="btn btn-primary">
+          <button 
+            onClick={() => onOpenModal("early-access")}
+            className="btn btn-primary"
+          >
             Get Early Access
-          </a>
-          <a href="#cta" className="btn btn-ghost">
+          </button>
+          <button 
+            onClick={() => onOpenModal("waitlist")}
+            className="btn btn-ghost"
+          >
             Join the Waitlist
-          </a>
+          </button>
         </div>
       </div>
 

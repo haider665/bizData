@@ -1,4 +1,8 @@
-export default function CTA() {
+interface CTAProps {
+  onOpenModal: (type: "waitlist" | "early-access") => void;
+}
+
+export default function CTA({ onOpenModal }: CTAProps) {
   return (
     <section id="cta" className="section mt-16">
       <div className="rounded-2xl bg-white p-6 text-center shadow-card ring-1 ring-gray-100">
@@ -10,12 +14,18 @@ export default function CTA() {
           future of analytics.
         </p>
         <div className="mt-4 flex items-center justify-center gap-3">
-          <a className="btn btn-primary" href="#">
+          <button 
+            onClick={() => onOpenModal("early-access")}
+            className="btn btn-primary"
+          >
             Request Early Access
-          </a>
-          <a className="btn btn-ghost" href="#">
+          </button>
+          <button 
+            onClick={() => onOpenModal("waitlist")}
+            className="btn btn-ghost"
+          >
             Join Waitlist
-          </a>
+          </button>
         </div>
       </div>
     </section>
