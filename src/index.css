@@ -4,6 +4,9 @@
 
 @layer base {
   html, body, #root { height: 100%; }
+  html {
+    font-size: 18px; /* Increased from default 16px to 18px (+2px) */
+  }
 }
 
 @layer components {

@@ -5,17 +5,17 @@ export default function Developers() {
         Built by developers for developers.
       </h2>
       <p className="mx-auto mt-2 max-w-3xl text-center text-sm text-gray-600">
-        We’re a team of engineers and designers who love clean UX. ExperienceAI
+        We're a team of engineers and designers who love clean UX. BizData
         focuses on turning existing analytics data into actionable insights.
         Our mission: make behavior analytics useful for every business.
       </p>
       <div className="mx-auto mt-6 max-w-3xl rounded-xl bg-gray-50 p-4 ring-1 ring-gray-100">
         <code className="block whitespace-pre-wrap text-xs text-gray-800">
-{`<!-- Install ExperienceAI -->
+{`<!-- Install BizData -->
 <script>
   (function(){ 
-    window.experienceAI = window.experienceAI || function(){(experienceAI.q = experienceAI.q || []).push(arguments)};
-    experienceAI('init', { siteId: 'YOUR_SITE_ID' });
+    window.bizData = window.bizData || function(){(bizData.q = bizData.q || []).push(arguments)};
+    bizData('init', { siteId: 'YOUR_SITE_ID' });
   })();
 </script>`}
         </code>

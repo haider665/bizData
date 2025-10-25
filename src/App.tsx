@@ -15,13 +15,13 @@ export default function App() {
     <>
       <GradientBG />
       <Navbar />
-      <main>
+      <main className="space-y-16 md:space-y-24 lg:space-y-32">
         <Hero />
         <InfoGrid />
         <ProductShowcase />
         <CapabilitiesGrid />
         <Steps />
-        <Pricing />
+        {/* <Pricing /> */}
         <Integrations />
         <Developers />
         <CTA />

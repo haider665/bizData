@@ -1,4 +1,4 @@
-# ExperienceAI Landing (React + TS + Vite + Tailwind)
+# BizData Landing (React + TS + Vite + Tailwind)
 
 A responsive landing page implementing the provided UI mock. Sections included:
 - Navbar with CTA

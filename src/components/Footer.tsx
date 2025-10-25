@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-2">
             <span className="h-2.5 w-2.5 rounded-full bg-primary-600"></span>
-            <span className="font-medium text-gray-900">ExperienceAI</span>
+            <span className="font-medium text-gray-900">BizData</span>
           </div>
           <nav className="flex flex-wrap items-center gap-4">
             <a href="#about" className="hover:text-gray-900">
@@ -29,7 +29,7 @@ export default function Footer() {
           </nav>
         </div>
         <p className="mt-6 text-center text-xs text-gray-500">
-          © {new Date().getFullYear()} ExperienceAI, Inc. All rights reserved.
+          © {new Date().getFullYear()} BizData, Inc. All rights reserved.
         </p>
       </div>
     </footer>

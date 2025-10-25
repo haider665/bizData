@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <span className="h-2.5 w-2.5 rounded-full bg-primary-600"></span>
           <a href="#" className="font-semibold tracking-tight">
-            ExperienceAI
+            BizData
           </a>
         </div>
         <nav className="hidden gap-6 text-sm text-gray-600 sm:flex">

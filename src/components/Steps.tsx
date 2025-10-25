@@ -3,7 +3,7 @@ const steps = [
     step: 1,
     title: "Install Snippet",
     desc:
-      "Copy and paste the ExperienceAI script into your website’s head tag."
+      "Copy and paste the BizData script into your website's head tag."
   },
   {
     step: 2,
