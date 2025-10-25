@@ -1,4 +1,4 @@
-export default function ProductShowcase() {
+export default function   ProductShowcase() {
   return (
     <section className="section mt-16">
       <h2 className="text-center text-xl font-semibold sm:text-2xl">
@@ -9,18 +9,17 @@ export default function ProductShowcase() {
         actionable improvements automatically.
       </p>
 
-      <div className="relative mt-8 grid gap-4 sm:grid-cols-2">
+      <div className="relative mt-8 mx-auto max-w-6xl">
         <div className="card relative overflow-hidden">
-          <span className="tag absolute left-3 top-3">Before</span>
-          <div className="h-40 rounded-lg bg-gray-50 ring-1 ring-gray-100 sm:h-56" />
-          <p className="mt-3 text-sm text-gray-600">
-            Disconnected dashboards and guesswork.
-          </p>
-        </div>
-        <div className="card relative overflow-hidden">
-          <span className="tag absolute left-3 top-3">After</span>
-          <div className="h-40 rounded-lg bg-primary-50 ring-1 ring-primary-100 sm:h-56" />
-          <p className="mt-3 text-sm text-gray-600">
+          <span className="tag absolute left-3 top-3">Dashboard</span>
+          <div className="h-80 rounded-lg bg-primary-50 ring-1 ring-primary-100 sm:h-96 lg:h-[28rem] xl:h-[32rem] flex items-center justify-center overflow-hidden">
+            <img 
+              src="/images/bizDataDashboard.png" 
+              alt="BizData connects signals into clear, prioritized insights"
+              className="w-full h-full object-contain"
+            />
+          </div>
+          <p className="mt-3 text-sm text-gray-600 text-center">
             BizData connects signals into clear, prioritized insights.
           </p>
         </div>
