@@ -22,9 +22,9 @@ export default function Navbar({ onOpenModal }: NavbarProps) {
           <a href="#about" className="hover:text-gray-900">
             About
           </a>
-          <a href="#blog" className="hover:text-gray-900">
+          {/* <a href="#blog" className="hover:text-gray-900">
             Blog
-          </a>
+          </a> */}
         </nav>
         <button 
           onClick={() => onOpenModal("early-access")}
